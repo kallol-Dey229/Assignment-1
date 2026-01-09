@@ -16,6 +16,11 @@ header{
     padding-top: 16px;
 }
 
+.extra:hover{
+    background-color:#627382;
+}
+
+/*------------navbar-------------*/
 
 .btn{
     width: 164px;
@@ -54,6 +59,11 @@ nav .menu{
   gap:32px;
 }
 
+nav .menu li{
+    cursor: pointer;
+    text-decoration: none;
+}
+
 nav .logo{
     margin-left: 120px;
 }
@@ -73,6 +83,8 @@ nav .btn{
     border-radius: 4px;
 }
 
+/*--------------Banner------------*/
+
 #banner{
     
     display: flex;
@@ -82,7 +94,6 @@ nav .btn{
     background-repeat: no-repeat;
     margin-top: 10px;
     height: 674px;
-
 }
 
 #banner .banner-content{
@@ -96,16 +107,20 @@ nav .btn{
     margin:0 270.5px 16px 270.5px;
 }
 
+
 .banner-content .access-btn-div .access-btn{
-    width: 229px;
-    padding:12px;
+    width: 235px;
+    padding:10px;
+    padding-left:17px;
     color: #469165;
     background-color: white;
     border: none;
     border-radius: 25px;
     font-size: 16px;
-    
-    
+    background: url("../assets/dot\ icon.png"),white;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    cursor: pointer;
 }
 
 
@@ -155,6 +170,10 @@ nav .btn{
     border-radius: 4px;
     border: 2px solid white;
 }
+
+
+
+/*---------------------Note------------------*/
 
 #notes{
     padding: 0 120px;
@@ -217,6 +236,9 @@ nav .btn{
     margin: 13px 14px;
     
 }
+
+
+/*--------------------Banner2----------------*/
 
 #banner2{
     padding-top: 120px;
@@ -306,10 +328,12 @@ nav .btn{
 .challenge-container .early-access-btn{
     margin-left:490px;
     margin-top: 24px;
+    width: 194px;
+    height: 52px;
 }
 
 .challenge-container .challenge-text {
-    padding-left: 380px;
+    padding-left: 390px;
     margin-top: 16px;
     font-size: 16px;
     color: #627382;
