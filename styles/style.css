@@ -74,7 +74,7 @@ nav .btn{
 }
 
 #banner{
-    width: 1600px;
+    
     display: flex;
     justify-content: center;
     padding: 115.5px 120px;
@@ -158,7 +158,7 @@ nav .btn{
 
 #notes{
     padding: 0 120px;
-    width: 1600px;
+    
     height: 448px;
     background-color: white;
 }
@@ -234,7 +234,7 @@ nav .btn{
 
 .banner2-container .banner2-content .green-text{
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     color: #469165;
     margin-bottom: 16px;
 }
@@ -264,8 +264,11 @@ nav .btn{
 .banner2-container .task img{
     margin: -4px 4px;
 }
+
+/*---------------challenge------------*/
+
 #challenge{
-    width: 1600px;
+    
     height: 506px;
 }
 
@@ -280,7 +283,7 @@ nav .btn{
 #challenge .challenge-container .challenge-header{
     width: 1280px;
     height: 112px;
-    padding-left: 250px;
+    padding-left: 300px;
 }
 
 .challenge-container .challenge-header h1{
@@ -296,14 +299,65 @@ nav .btn{
     
 }
 
+.challenge-container .challenge-header .middle-line{
+    padding-left: 150px;
+}
+
 .challenge-container .early-access-btn{
-    margin-left:450px;
+    margin-left:490px;
     margin-top: 24px;
 }
 
 .challenge-container .challenge-text {
-    padding-left: 350px;
+    padding-left: 380px;
     margin-top: 16px;
     font-size: 16px;
     color: #627382;
+}
+
+/*-------------Footer----------------*/
+
+footer{
+    
+    background-color: #001931;
+    padding: 120px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+footer nav .social-box p{
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    font-weight: 400;
+}
+footer nav .social-box{
+    margin-left: 790px;
+}
+
+footer nav .social-box .social-card-box {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    width: 220px;
+}
+
+footer nav .social-box .social-card-box a{
+    list-style-type: none;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 30px;
 }
