@@ -73,3 +73,87 @@ nav .btn{
     border: none;
     border-radius: 4px;
 }
+
+#banner{
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    padding: 115.5px 120px;
+    background: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 674px;
+
+}
+
+#banner .banner-content{
+    width: 1360px;
+    border: 115.5px 120px 179.5px 120px;
+    padding-left: 295px;
+    
+}
+
+.banner-content .access-btn-div{
+    margin:0 270.5px 16px 270.5px;
+}
+
+.banner-content .access-btn-div .access-btn{
+    width: 229px;
+    padding:12px;
+    color: #469165;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    
+    
+}
+
+
+.banner-content .banner-text h1{
+    font-size: 72px;
+    font-weight: bold;
+    margin:16px 50px;
+    width: 800px;
+}
+
+
+.banner-text h1 .white{
+    color:white;
+}
+.banner-text h1 .green{
+    color:#30B868;
+}
+
+.banner-content .banner-text p{
+    width: 700px;
+    font-size: 18px;
+    line-height: 34px;
+    margin-left:70px;
+    margin-bottom: 32px;
+    color: white;
+}
+
+.banner-content .buttons{
+    margin: 0 180px;
+    display: flex;
+    gap:16px
+    
+}
+
+.banner-content .buttons .start{
+    width:251px;
+}
+
+.banner-content .buttons .how-its-work-btn{
+    width: 198px;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 12.5px 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
