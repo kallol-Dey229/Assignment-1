@@ -264,3 +264,46 @@ nav .btn{
 .banner2-container .task img{
     margin: -4px 4px;
 }
+#challenge{
+    width: 1600px;
+    height: 506px;
+}
+
+#challenge .challenge-container{
+    margin: 0 auto;
+    width: 1360px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+
+#challenge .challenge-container .challenge-header{
+    width: 1280px;
+    height: 112px;
+    padding-left: 250px;
+}
+
+.challenge-container .challenge-header h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.challenge-container .challenge-header p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    
+}
+
+.challenge-container .early-access-btn{
+    margin-left:450px;
+    margin-top: 24px;
+}
+
+.challenge-container .challenge-text {
+    padding-left: 350px;
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382;
+}
